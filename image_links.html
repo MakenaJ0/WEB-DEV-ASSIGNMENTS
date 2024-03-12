@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Cool Webpage</title>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ccc;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu li {
+            margin-bottom: 10px;
+        }
+      </style>
+    </head>
+    <body>
+        <header>
+          <h1>Welcome to My Cool Webpage</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#menu">Menu</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Welcome to our website! Explore the world of food, nature and technology</p>
+            <a href="https://unsplash.com/photos/macro-photography-of-black-circuit-board-FO7JIlwjOtU"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image of a Black circuit board" style="max-width: 45%; align-items: center;"></a>
+        </section>
+        <br>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <a href="https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-lush-green-forest-J6Fdqeb0Vcs"><img src="https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?q=80&w=1912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Waterfall in a forest image"></a></li>
+                <a href="https://unsplash.com/photos/landmark-photography-of-trees-near-rocky-mountain-under-blue-skies-daytime-ndN00KmbJ1c"><img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Trees near a rocky mountain image"></a>
+                <a href="https://unsplash.com/photos/selective-focus-photo-of-green-vine-h5wvMCdOV3w"><img src="https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Focus on a green vine image"></a>
+                <img href="https://unsplash.com/photos/waves-of-body-of-water-splashing-on-sand-mBQIfKlvowM"><img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Waves on a sandy beach"></a>
+            </div>
+        </section>
+        <br>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+              <li><a href="https://unsplash.com/photos/a-stack-of-pancakes-with-blueberries-and-syrup-g4jSyttFc08"><img src="https://plus.unsplash.com/premium_photo-1663858367001-89e5c92d1e0e?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pancakes" style="max-width: 25%;"><br>Pancake stack with blueberries</a></li>
+              <hr>
+              <li><a href="https://unsplash.com/photos/pizza-on-chopping-board-MqT0asuoIcU"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1981&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" style="max-width: 25%;"><br> Hawaiian Pizza</a></li>
+              <li><a href="https://unsplash.com/photos/burger-with-lettuce-and-fries-on-brown-wooden-table-DspT8Smoc0k"><img src="https://images.unsplash.com/photo-1606149059549-6042addafc5a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Triple burger and fries" style="max-width: 25%;"><br>Triple burger and fries</a></li>
+              
+          </ul>
+        </section>
+        <footer>
+          <p>Copyright &copy; 2024 My Cool Webpage. All rights reserved.</p>
+        </footer>
+    </body
+</html>
